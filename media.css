@@ -1,0 +1,234 @@
+/* navbar */
+/* xs */
+@media all and (min-width:0px) and (max-width:600px) {
+    #logo{
+        font-size: 25px;
+        left: 5%;
+    }
+    #icon{
+        width: 4%;
+        right: 5%;
+    }
+    .navbar ul a{
+        font-size: 0.9rem;
+    }
+    .navbar ul{
+        width: 50%;
+    }
+}
+/* sm */
+@media all and (min-width:601px) and (max-width:768px) {
+    
+    #logo{
+        font-size: 25px;
+        left: 5%;
+    }#icon{
+        width: 4%;
+        right: 5%;
+    }
+    .navbar ul a{
+        font-size: 0.9rem;
+    }
+    .navbar ul{
+        width: 45%;
+    }
+}
+/* md */
+
+@media all and (min-width:769px) and (max-width:991px)
+{
+    .navbar ul{
+        width: 45%;
+    }
+}
+
+/* header */
+/* xs */
+@media all and (min-width:0px) and (max-width:600px) {
+    .header{
+        flex-direction: column-reverse;
+        height: 150vh;
+    }
+    .header-content{
+        position: static;
+        text-align: center;
+    }
+    .header-image{
+        width: 80%;
+        position: static;
+        margin-top: 5rem;
+    }
+}
+/* sm */
+@media all and (min-width:601px) and (max-width:768px) {
+    .header{
+        flex-direction: column-reverse;
+        height: 180vh;
+    }
+    .header-content{
+        position: static;
+        text-align: center;
+    }
+    .header-image{
+        width: 85%;
+        position: static;
+        margin-top: 4rem;
+    }
+}
+
+/* chefs */
+/* xs */
+@media all and (min-width:0px) and (max-width:600px) {
+    .chef-info{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .chef-info .chef-picture::after{
+        bottom: 2px;
+        height: 5rem;
+    }
+}
+/* sm */
+@media all and (min-width:601px) and (max-width:768px) {
+    .chef-info{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .chef-info .chef-picture::after{
+        bottom: 2px;
+        height: 8rem;
+    }
+}
+
+/* our gallery */
+/* xs */
+@media all and (min-width:0px) and (max-width:600px) {
+    .items{
+        width: 100%;
+    }
+}
+/* sm */
+@media all and (min-width:601px) and (max-width:768px) {
+    .items{
+        width: 100%;
+    }
+   
+}
+
+/* our contact */
+/* xs */
+@media all and (min-width:0px) and (max-width:600px) {
+    .map{
+     width: 100%;
+    }
+    .contact-data{
+        width: 100%;
+    }
+}
+/* sm */
+@media all and (min-width:601px) and (max-width:768px) {
+    .map{
+        width: 100%;
+       }
+    .contact-data{
+        width: 100%;
+    }
+}
+/* md */
+@media all and (min-width:769px) and (max-width:991px)
+{
+    .contact-data{
+        width: 100%;
+    }
+}
+
+/* footer */
+/* xs */
+@media all and (min-width:0px) and (max-width:600px)
+{
+    .footer-container{
+        width: 95%;
+        margin: auto;
+        display: block;
+    }
+    .footer-one{
+        width: 100%;
+        flex-grow: 10;
+    }
+    .footer-two{
+        width: 100%;
+        flex-grow: 10;
+    }
+    .footer-three{
+        width: 100%;
+        flex-grow: 10;
+    }
+    .btn-footer{
+        width: 100%;
+    }
+    .subscription-group input{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+/* sm */
+@media all and (min-width:601px) and (max-width:768px) 
+{
+    .footer-container{
+        width: 95%;
+        margin: auto;
+        display: block;
+    }
+    .footer-one{
+        width: 100%;
+    }
+    .footer-two{
+        width: 100%;
+    }
+    .footer-three{
+        width: 100%;
+    }
+}
+/* md */
+@media all and (min-width:769px) and (max-width:991px)
+{
+    .footer-container{
+        width: 95%;
+        margin: auto;
+    }
+    .footer-one{
+        width: 50%;
+        order: 0;
+    }
+    .footer-two{
+        width: 100%;
+        order: 2;
+    }
+    .footer-three{
+        width: 50%;
+        order: 1;
+        padding-left: 50px;
+    }
+}
+/* lg */
+
+@media all and (min-width:992px) and (max-width:1200px)
+{
+    .footer-container{
+        width: 95%;
+        margin: auto;
+    }
+    .footer-one{
+        width: 50%;
+        order: 0;
+    }
+    .footer-two{
+        width: 100%;
+        order: 2;
+    }
+    .footer-three{
+        width: 50%;
+        order: 1;
+        padding-left: 50px;
+    }
+}
